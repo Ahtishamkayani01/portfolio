@@ -1,37 +1,55 @@
-import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
+import { DiAndroid, DiTerminal,DiReact ,DiJavascript1, DiWebplatform,DiHtml53DEffects } from "react-icons/di";
+import { SiJava, SiFirebase, SiGit,SiNextDotJs,SiThreema ,SiCss3,SiTailwindcss} from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
+    slug: "Web Development",
+    Component: DiWebplatform,
+    title: "Web Development",
+    Description: () => <>I work on web app, on different technology.</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    slug: "React",
+    Component: DiReact,
+    title: "React",
+    Description: () => <>Currently working with React.js for web app development. </>,
   },
   {
-    slug: "java",
-    Component: SiJava,
-    title: "Java",
-    Description: () => <>I can code in Java. But I mainly use it for Android app development.</>,
+    slug: "SiNextDotJs",
+    Component: SiNextDotJs,
+    title: "Next.js",
+    Description: () => <>Currently working with Next.js for web app development.</>,
   },
   {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => <>I have written dozens of Shell scripts for various purposes.</>,
+    slug: "SiThreema",
+    Component: SiThreema,
+    title: "Three.js",
+    Description: () => <> working with Three.js for web app development.</>,
   },
   {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>I have used Firebase for auth, database & analytics in my apps.</>,
+    slug: "DiJavascript1",
+    Component: DiJavascript1,
+    title: "Java Script",
+    Description: () => <>I can code in plane Java script.</>,
+  },
+  {
+    slug: "DiHtml53DEffects",
+    Component: DiHtml53DEffects,
+    title: "HTML",
+    Description: () => <>I also work in Html having strong knowledge of sementic elements.</>,
+  },
+  {
+    slug: "SiCss3",
+    Component: SiCss3,
+    title: "CSS",
+    Description: () => <>Having strong knowledge of css </>,
+  },
+  {
+    slug: "SiTailwindcss",
+    Component: SiTailwindcss,
+    title: "Tailwindcss",
+    Description: () => <>currently working with tailwindcss ,Having strong knowledge of Tailwindcss </>,
   },
   {
     slug: "git",
